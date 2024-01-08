@@ -82,6 +82,24 @@ Contribuciones son bienvenidas! Abre un issue o envía un pull request para disc
     Inicializa un nuevo proyecto Prisma. Este comando te guiará a través del proceso de configuración inicial, incluyendo la creación de archivos de configuración necesarios para tu proyecto Prisma.
 
 -------------------------------------------------------------------------------------------------------
+Vistas:
+
+![Screenshot_3](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/458a5a86-5fab-4111-94ea-a8cc96d237d5)
+
+![Screenshot_4](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/2ae0e150-b10d-402c-946f-410691418e8c)
+
+![Screenshot_5](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/0a542b64-eceb-47d7-b08a-a6e5438721a7)
+
+![Screenshot_6](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/d38a7012-e3c0-490d-a2d4-40e404814491)
+
+![Screenshot_7](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/56795efc-8353-4e10-9dfe-c541c1dd8d42)
+
+
+
+
+
+
+
 Asegúrate de tener las dependencias y el entorno necesario instalado antes de ejecutar estos comandos.
 
 Licencia:
