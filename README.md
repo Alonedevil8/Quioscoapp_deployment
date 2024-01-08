@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+QuioscoApp
 
-## Getting Started
+QuioscoApp es una aplicación de quiosco virtual construida con Next.js y Prisma para la gestión de productos y pedidos de una cafetería. Permite a los usuarios explorar categorías de productos, personalizar sus pedidos y revisar el resumen antes de confirmar la compra.
+Configuración
+Requisitos Previos
 
-First, run the development server:
+Asegúrate de tener Node.js instalado en tu sistema.
 
-```bash
+## Instalación
+
+1. Clona este repositorio:
+git clone https://github.com/tuusuario/quioscoapp.git
+
+2. Entra en el directorio del proyecto:
+cd quioscoapp
+
+3. Instala las dependencias:
+npm install
+
+4. Configura la base de datos:
+npx prisma migrate dev
+
+5. Ejecuta las semillas para poblar la base de datos:
+npm run prisma:seed
+
+6. Iniciar el Servidor de Desarrollo
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
-# or
+# o
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre http://localhost:3000 en tu navegador para ver el resultado. La página se actualizará automáticamente mientras editas los archivos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este proyecto utiliza next/font para optimizar y cargar automáticamente la fuente Inter, una fuente personalizada de Google.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Scripts Disponibles
+    npm run dev: Inicia el servidor de desarrollo Next.js.
+    npm run build: Construye la aplicación para producción.
+    npm start: Inicia la aplicación en modo de producción.
+    npm run lint: Ejecuta el linter para mantener el código limpio.
 
-## Learn More
+Tecnologías Utilizadas
+    Next.js
+    Prisma
+    React
+    React Modal
+    React Toastify
+    Axios
+    Tailwind CSS
+    TypeScript
+    Swr
 
-To learn more about Next.js, take a look at the following resources:
+Estructura del Proyecto
+    /pages: Contiene las páginas principales de Next.js.
+    /components: Componentes React reutilizables.
+    /context: Contexto de la aplicación.
+    /hooks: Ganchos personalizados utilizados en la aplicación.
+    /layout: Diseño principal de la aplicación.
+    /prisma: Archivos relacionados con la configuración de Prisma y las semillas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contribución:
+Contribuciones son bienvenidas! Abre un issue o envía un pull request para discutir y mejorar la aplicación.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Comandos de Prisma
 
-## Deploy on Vercel
+    1. `npx prisma migrate dev`
+    Este comando ejecuta las migraciones de la base de datos en modo de desarrollo. Las migraciones describen los cambios en la estructura de la base de datos a lo largo del tiempo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    1.5 `npx prisma migrate deploy` 
+    Este proceso de migración asegurará que los cambios en tu modelo de datos se reflejen en la base de datos.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    2. `npx prisma db seed`
+    Utiliza este comando para ejecutar scripts de semillas que llenan la base de datos con datos iniciales. Los scripts de semillas son útiles para poblar la base de datos con datos de prueba o valores predeterminados.
+
+    3. `npx prisma generate`
+    Genera archivos TypeScript basados en tu modelo de datos definido en el esquema Prisma. Estos archivos facilitan el acceso a la base de datos desde tu aplicación TypeScript.
+
+    4. `npx prisma studio`
+    Abre Prisma Studio, una interfaz gráfica para interactuar y explorar tu base de datos visualmente. Puedes ver y editar datos directamente desde Prisma Studio.
+
+    5. `npx ts-node prisma/seed.ts`
+    Este comando ejecuta un archivo TypeScript llamado `seed.ts` en el directorio `prisma`. Asegúrate de tener `ts-node` instalado para ejecutar scripts TypeScript directamente.
+
+    6. `npx prisma init`
+    Inicializa un nuevo proyecto Prisma. Este comando te guiará a través del proceso de configuración inicial, incluyendo la creación de archivos de configuración necesarios para tu proyecto Prisma.
+
+-------------------------------------------------------------------------------------------------------
+Asegúrate de tener las dependencias y el entorno necesario instalado antes de ejecutar estos comandos.
+
+Licencia:
+Este proyecto está bajo la Licencia MIT - ve el archivo LICENSE.md para detalles.

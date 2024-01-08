@@ -1,0 +1,41 @@
+// Este es tu archivo de esquema de Prisma,
+// obtén más información al respecto en la documentación: https://pris.ly/d/prisma-schema
+
+// Generador para Prisma Client, que proporciona una interfaz para interactuar con la base de datos
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Fuente de datos que especifica el proveedor de base de datos y la URL de conexión
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// Definición del modelo 'Producto' para representar productos en la base de datos
+model Producto {
+  id Int @id @default(autoincrement())
+  nombre String    // Nombre del producto
+  precio Float     // Precio del producto
+  imagen String    // Ruta de la imagen del producto
+  categoria Categoria @relation(fields: [categoriaId], references: [id]) // Relación con el modelo 'Categoria'
+  categoriaId Int  // Clave externa que conecta con la categoría del producto
+}
+
+// Definición del modelo 'Categoria' para representar categorías en la base de datos
+model Categoria {
+  id Int @id @default(autoincrement())
+  nombre String    // Nombre de la categoría
+  icono String     // Ruta del icono de la categoría
+  productos Producto[] // Relación inversa con el modelo 'Producto', indicando que una categoría puede tener varios productos
+}
+
+// Definición del modelo 'Orden' para representar órdenes en la base de datos
+model Orden {
+  id Int @id @default(autoincrement())
+  nombre String    // Nombre asociado a la orden
+  fecha String     // Fecha de la orden
+  total Float      // Total de la orden
+  pedido Json      // Campo JSON para almacenar detalles del pedido
+  estado Boolean @default(false)
+}
