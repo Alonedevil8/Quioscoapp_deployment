@@ -25,9 +25,6 @@ npm run prisma:seed
 
 6. Iniciar el Servidor de Desarrollo
 npm run dev
-# yarn dev
-# pnpm dev
-# bun dev
 
 Abre http://localhost:3000 en tu navegador para ver el resultado. La página se actualizará automáticamente mientras editas los archivos.
 
