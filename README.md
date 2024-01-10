@@ -94,9 +94,19 @@ Vistas:
 
 ![Screenshot_7](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/56795efc-8353-4e10-9dfe-c541c1dd8d42)
 
+Vista En Dispositivo Mobil:
 
+![Imagen de WhatsApp 2024-01-09 a las 20 06 36_01afa5e8](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/656d2a96-61bc-4f22-801a-eb9f5a35d605)
 
+![Imagen de WhatsApp 2024-01-09 a las 20 06 36_829d8006](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/11d5167c-a249-45d3-b8b8-fb715ba183a4)
 
+![Imagen de WhatsApp 2024-01-09 a las 20 06 36_0ae2673c](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/8b118628-7ff1-4f6f-b4a9-4f01613fd3db)
+
+![Imagen de WhatsApp 2024-01-09 a las 20 06 36_b73cbc0d](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/183555f5-d5ee-4089-b75b-b71f91da492b)
+
+![Imagen de WhatsApp 2024-01-09 a las 20 06 36_780d67d6](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/67457b09-a6de-490d-b7aa-ce5525855106)
+
+![Imagen de WhatsApp 2024-01-09 a las 20 06 35_14787db2](https://github.com/Alonedevil8/quioscoapp_deployment/assets/6482729/e95811d5-acb1-4ed0-8725-2f98e8947b23)
 
 
 
